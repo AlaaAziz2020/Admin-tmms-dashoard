@@ -1,0 +1,35 @@
+:root {
+    --board-color: #497959;
+    --frame-color: #B78240;
+    --main-font-color: #E8E8E8;
+    --main-font-family: 'Trebuchet MS';
+  }
+  
+  #timer,#timer3{
+    width: 350px;
+    display: flex;
+    /*justify-content: center;
+    text-align: center;*/
+     }
+  
+  #timer .board,#timer3 .board {
+    height: 8%;
+    width: 12%;
+    margin: 0 3%;
+    font-family: var(--main-font-family), Arial, sans-serif;
+    font-weight: 100;
+  }
+  
+  #timer .board > div.number,#timer3 .board > div.number {
+    background-color: var(--board-color);
+    border: var(--frame-color) solid 5px;
+    color: var(--main-font-color);
+    font-size: 18px;
+   /* padding: 10px 0;*/
+  }
+  
+  #timer .board > div.labels, #timer3 .board > div.labels     {
+    padding-top: 0px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }

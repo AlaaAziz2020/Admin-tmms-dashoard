@@ -1,0 +1,22 @@
+*{
+    font-family: "Poppins";
+    box-sizing: border-box;
+  }
+  .btn:focus {
+    box-shadow: none !important;
+  }
+  .btn::after {
+    display: none !important;
+  }
+  /* End of the global styles */
+  
+  /* Start of the body */
+  body {
+    background-color: #fafafa;
+    transition: padding 0.2s ease-in-out;
+    overflow-x: hidden;
+  
+  }
+  /* End of the body */
+  .login-form{text-align: right;}
+  .login-form hr{text-align: right;float:right;}

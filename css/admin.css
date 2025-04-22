@@ -1,0 +1,110 @@
+/* Global styles */
+* {
+    font-family: "Poppins";
+    box-sizing: border-box;
+  }
+  .btn:focus {
+    box-shadow: none !important;
+  }
+  .btn::after {
+    display: none !important;
+  }
+  /* End of the global styles */
+  
+  /* Start of the body */
+  body {
+    padding-inline-start: 200px;
+    transition: padding 0.2s ease-in-out;
+    overflow-x: hidden;
+  
+  }
+  /* End of the body */
+  /*Start Sidenav*/
+  .sidenav .all:hover{background:none;color: #000 !important; font-weight: bold;}
+  /* End Sidenav*/
+  /* Start Analytics*/
+  .all-cards2 {
+    border: 1px solid #BFBFBF;
+    border-radius: 5px;
+    margin-left: 33px;
+    margin-top: 2%;
+    width: 94%;
+    height: 970px;
+    background-color: #FFF;
+  }
+.a1 .analytic-tender{height: 170px;background: #FFF;border: 1px solid #BFBFBF;border-radius: 7px;/*margin-left: 6%*/}
+.a1 .analytic-tender i{width: 44px;height: 44px;border-radius: 9px;font-size: 19px  }
+.a1 .analytic-tender .hammer1{color:#fff; background: #a066f491;}
+.a1 .analytic-tender .hammer2{color:#fff; background: #ff3366b3 }
+.a1 .analytic-tender .hammer3{color:#fff; background: #29C0B1}
+.a1 .analytic-tender .hammer4{color:#fff; background-color:#FF9900}
+.a1 .analytic-tender .hammer5{color:#fff; background: #257BE2}
+.a1 .analytic-tender .hammer6{color:#fff; background: #727272}
+.a1 .analytic-tender .hammer7{color:#fff; background: #68006B}
+.a1 .analytic-tender .hammer8{color:#fff; background: #3D7248}
+.a1 .analytic-tender .text{font-size: 17px;}
+.a1 .analytic-tender .arrow{ width: 44px;height: 44px;border-radius: 9px; font-size: 15px;color: #00D62A;padding-left: 10px;  }
+.a1 .analytic-tender .arrow2{color:#FF2929; width: 44px;height: 44px;border-radius: 9px; font-size: 15px;padding-left: 10px;background-color: #FF3366;}
+.a1 .analytic-tender .number{font-size: 20px;}
+.a1 .analytic-tender .high{border: 1px solid #1A0E0E;border-radius: 16px}
+.a1 .analytic-tender .high i{background:none;border-radius: 16px}
+.table-report3{
+background-color: #fff;
+border: 2px solid #DEDEDE;
+border-radius: 5px;
+margin-left: 2%;
+width: 96%;
+height: 52vh;
+}
+.table-report3 thead{    border-bottom: 1px solid #707070}
+.table-report3 .check{color:#3D7248;font-size: 23px;}
+.table-report3 .xmark{color:#ff0000;font-size: 23px;}
+.table-report3 .exclamation{color: #FF9900;font-size: 23px;}
+.table-report3 .trash{color:#FF0000;font-size: 23px;}
+.table-report2 .trash{    color: #dc3545c7  ;font-size: 23px;}
+.table-report3 tr .status span {color:#3D7248; border: 1px solid #3D7248;border-radius: 5px;font-size: 15px}
+.table-report3 tr .cancel span {color:#ff0000; border: 1px solid #ff0000;border-radius: 5px;font-size: 15px}
+.table-report3 tr .revisable span {color:#FF9900; border: 1px solid #FF9900;border-radius: 5px;font-size: 15px}
+.table-report3 .view-more{border-top: 1px solid #707070;}
+.practice-trash{background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #00000029;
+  border-radius: 10px;}
+.all-users{height: 100%;background: #FFF;border: 1px solid #000000;border-radius: 8px;}
+.all-users p{font-size: 11px;line-height: 30px;}
+ a{text-decoration: none;}
+  /* End Analytics*/
+  .report-bid{
+  font-size: 16px;
+  width: 11vw;
+  height: 7vh;
+  margin-right: 90px;
+  background: #4F8259 ;
+  border-radius: 10px;
+  }
+  .report-edit{background: #FFFFFF 0% 0% no-repeat padding-box;border: 1px solid #00000029;border-radius: 10px;}
+  .report-trash{background: #FFFFFF 0% 0% no-repeat padding-box;border: 1px solid #00000029;border-radius: 10px;color: #ff2929; opacity: 0.70;}
+  .report-download{background: #FFFFFF 0% 0% no-repeat padding-box;border: 1px solid #00000029;border-radius: 10px;color:#4F8259; opacity: 0.70;}
+  .chart{font-size: 18px;}
+  .chart2{font-size: 16px;}
+  .close-practice{height: 57px;
+    float: right;
+    background: #FF2929;
+    border:none;
+    border-radius: 10px;
+    opacity: 1;
+}
+.close-practice:hover{background-color: #FF2929;}
+.product-id{border: none;}
+.btn a{text-decoration: none;}
+/*refresh*/
+.refresh{
+  background: none;
+  color: #00D62A;
+  border:none;
+border-radius: 10px;
+}
+.refresh i{border: 1px solid #00000029;
+  border-radius: 10px;}
+  .refresh .trash1{font-size: 20px;color:#ff000096}
+
+/*refresh*/

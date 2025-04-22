@@ -1,0 +1,56 @@
+center{
+    text-align:center;
+  }
+  .black{
+    color:#000;
+  }
+  .tiny{
+    font-size:0.8em;
+  }
+  #footer{
+    background:#fff;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    bottom:0;
+    box-shadow:inset 0 1px 1px rgba(0,0,0,0.2);
+    padding:6px 0 0 0;
+  }
+  #footer .footer-main{
+    width:300px;
+    margin:0 auto;
+    text-align:center;
+  }
+  #footer .footer-main a{
+    display:inline-block;
+    width:200px;
+  }
+  #footer .footer-main a img{
+    width:200px;
+    display:block;
+  }
+  /*the form*/
+  form{
+    padding:20px 0;
+  }
+  .form-group{
+      padding: 0;
+  }
+  .form-group:first-child{
+    margin-bottom:0;
+  }
+  .btn-primary{
+    cursor:pointer;
+  }
+  .margin-top-20{
+    margin-top:20px;
+  }
+  input#releasdate{
+    padding-right:100px;
+  }
+  .btn.dvalidate{
+      position: absolute;
+      top: 22px;
+      z-index: 100;
+      right: 17px;
+  }

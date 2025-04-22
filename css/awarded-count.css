@@ -1,0 +1,58 @@
+#timers {
+  font-size: 30px;
+  font-weight: 100;
+    color: #fff;
+  }
+  #timers div {
+    display: inline-block;
+    min-width: 50px;
+    color:#000;
+    font-size: 34px;
+  }
+  #timer .board > div.number {
+    border: var(--frame-color) solid 5px;
+    color: var(--main-font-color);
+    font-size: 18px;
+
+}
+  #timers div span {
+    color: #000;
+    display: block;
+    font-size: .35em;
+    font-weight: 400;
+  }
+  
+  #since { 
+    color: #000;
+    display: block;
+    font-size: .35em;
+    font-weight: 400;
+    padding-bottom: 10px;
+  
+  }
+  #timers1,#timers2 {
+    font-size: 30px;
+    font-weight: 100;
+      color: #fff;
+    }
+    #timers1 div,#timers2 div {
+      display: inline-block;
+      min-width: 50px;
+      color:#000;
+      font-size: 34px;
+    }
+    #timer1 .board > div.number,#timers2 .board > div.number {
+      border: var(--frame-color) solid 5px;
+      color: var(--main-font-color);
+      font-size: 18px;
+  
+  }
+    #timers1 div span, #timers2 div span {
+
+      color: #000;
+      display: block;
+      font-size: .35em;
+      font-weight: 400;
+    }
+    
+   
